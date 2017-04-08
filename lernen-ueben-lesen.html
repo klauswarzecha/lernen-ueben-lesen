@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="de">
+
+<head>
+	<meta charset="utf-8">
+	<title>Lernen - Üben - Lesen</title>
+	<meta name="description" content="Ressourcen für Python-Anfänger">
+	<meta name="author" content="Klaus-Dieter Warzecha">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<link rel="stylesheet" href="css/reveal.css">
+
+	<link rel="stylesheet" href="css/theme/black.css" id="theme">
+
+	<link rel="stylesheet" href="css/kwz.css">
+
+
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="lib/css/zenburn.css">
+
+	<!-- Printing and PDF exports -->
+	<script>
+		var link = document.createElement('link');
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		document.getElementsByTagName('head')[0].appendChild(link);
+	</script>
+
+	<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section>
+				<h2>Lernen - Üben - Lesen</h2>
+				<h3>Nützliche Ressourcen</h3>
+				<p>
+					<small>Klaus-Dieter Warzecha / <a href="https://github.com/klauswarzecha">klauswarzecha</a></small>
+				</p>
+			</section>
+
+			<section>
+				<h2>Freie Selbstlern-Kurse</h2>
+				<h3>codecademy</h3>
+				<p>
+					<a href="https://www.codecademy.com/learn/python">https://www.codecademy.com/learn/python</a>
+				</p>
+
+				<h3>SoloLearn</h3>
+				<p><a href="https://www.sololearn.com/Play/Python">https://www.sololearn.com/Play/Python</a></p>
+
+				<h3>openHPI</h3>
+				<p>
+					<a href="https://open.hpi.de/courses/pythonjunior2015">https://open.hpi.de/courses/pythonjunior2015</a>
+				</p>
+			</section>
+
+			<section>
+				<section>
+					<h2>Allgemeine Übungsaufgaben</h2>
+					<h3>CodingBat</h3>
+					<p>
+						<a href="http://codingbat.com/python">http://codingbat.com/python</a>
+						<br>Nick Parlante (CS lecturer, Stanford)</p>
+					<h3>Code Abbey</h3>
+					<p>
+						<a href="http://codeabbey.com">http://codeabbey.com</a><br> Rodion Gorkovenko
+					</p>
+				</section>
+
+				<section>
+					<h3>Hacker Rank</h3>
+					<p><a href="http://hackerrank.com">http://hackerrank.com</a></p>
+					<h3>code wars</h3>
+					<p><a href="http://codewars.com">http://codewars.com</a></p>
+					<h3>code eval</h3>
+					<p><a href="http://codeeval.com">http://codeeval.com</a></p>
+				</section>
+			</section>
+
+			<section>
+				<h2>Spezielle Übungsaufgaben</h2>
+				<h3>Rosalind</h3>
+				<p>
+					<a href="http://rosalind.info">http://rosalind.info</a> (Bioinformatik)
+				</p>
+				<h3>Project Euler</h3>
+				<p>
+					<a href="http://projecteuler.net">http://projecteuler.net</a> (Mathematik)
+				</p>
+			</section>
+
+			<section>
+				<h2>Bücher</h2>
+
+				<h3>Packt Publishing</h3>
+				<p>
+					<a href="https://www.packtpub.com/packt/offers/free-learning">https://www.packtpub.com/packt/offers/free-learning</a> - jeden Tag ein freies EBook
+				</p>
+
+				<h3>Humble Bundle</h3>
+				<p>
+					<a href="https://www.humblebundle.com/books/python-book-bundle">https://www.humblebundle.com/books/python-book-bundle</a> - bis 20.04.2017 großes Bündel von Python-EBooks (No Starch)
+				</p>
+			</section>
+		</div>
+	</div>
+	<script src="lib/js/head.min.js"></script>
+	<script src="js/reveal.js"></script>
+
+	<script>
+		// More info https://github.com/hakimel/reveal.js#configuration
+		Reveal.initialize({
+			controls: true,
+			progress: true,
+			history: true,
+			center: true,
+
+			transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+			// More info https://github.com/hakimel/reveal.js#dependencies
+			dependencies: [{
+				src: 'lib/js/classList.js',
+				condition: function() {
+					return !document.body.classList;
+				}
+			}, {
+				src: 'plugin/markdown/marked.js',
+				condition: function() {
+					return !!document.querySelector('[data-markdown]');
+				}
+			}, {
+				src: 'plugin/markdown/markdown.js',
+				condition: function() {
+					return !!document.querySelector('[data-markdown]');
+				}
+			}, {
+				src: 'plugin/highlight/highlight.js',
+				async: true,
+				callback: function() {
+					hljs.initHighlightingOnLoad();
+				}
+			}, {
+				src: 'plugin/zoom-js/zoom.js',
+				async: true
+			}, {
+				src: 'plugin/notes/notes.js',
+				async: true
+			}]
+		});
+	</script>
+
+</body>
+
+</html>
